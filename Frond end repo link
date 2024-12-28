@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <title>Login - Mini Book Management App</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="admin.html">Admin</a>
+        <a href="books.html">Books</a>
+    </nav>
+    <h1>Login</h1>
+    <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required/>
+        <input type="password" id="password" placeholder="Password" required/>
+        <button type="submit">Login</button>
+    </form>
+    <div id="errorMessage" style="color: red;"></div>
+    <script src="js/login.js"></script>
+</body>
+</html>
